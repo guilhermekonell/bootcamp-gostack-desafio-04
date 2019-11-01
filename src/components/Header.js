@@ -2,14 +2,14 @@ import React from 'react';
 
 function Header() {
   return (
-    <header>
-      <nav>
+    <header class="main-header">
+      <div class="header">
         <img src="https://i.imgur.com/KDIDiSE.png" />
-        <div>
+        <div class="user">
           <span>Guilherme Konell</span>
           <i className="material-icons">account_circle</i>
         </div>
-      </nav>
+      </div>
     </header>
   );
 }
